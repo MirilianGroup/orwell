@@ -1,0 +1,60 @@
+{
+    "Timestamp": "2000-01-24T00:00:00Z",
+    "Identifier": "string?",
+    "Environment": "string?",
+    "Application": "string?",
+    "Level": "string?",
+    "MachineName": "string?",
+    "MachineUserName": "string?",
+    "MessageTemplate": "string?",
+    "Message": "string?",
+    "InstanceId": "string?",
+    "InstanceType": "string?",
+    "UserId": "string?",
+    "OperationId": "string?",
+    "OperationMethod": "string?",
+    "OperationName": "string?",
+    "OperationPath": "string?",
+    "OperationStatusCode": "string?",
+    "OperationDurationMs": "float?",
+    "OperationItemCount": "float?",
+    "Entity": "string?",
+    "EntityIds": "string[]?",
+    "EntityCount": "int?",
+    "ProfilerId": "string?",
+    "ProfilerTimings": [
+        {
+            "Id": "string?",
+            "Name": "string?",
+            "ParentId": "string?",
+            "OperationName": "string?",
+            "DurationMs": "float",
+            "StartMs": "float",
+            "CustomTimings": [
+                {
+                    "Category": "string?",
+                    "Command": "string?",
+                    "DurationMs": "float?"
+                }
+            ]
+        }
+    ],
+    "Fields": [
+        {
+            "Name": "string",
+            "Value": "string?"
+        }
+    ],
+    "Metrics": [
+        {
+            "Name": "string",
+            "Value": "double"
+        }
+    ],
+    "Exception": {
+        "InnerException": "Exception?",
+        "Message": "string?",
+        "StackTrace": "string?"
+    }
+}
+  

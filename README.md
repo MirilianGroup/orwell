@@ -15,6 +15,19 @@ You can create tailored widgets and visualizations to meet your specific monitor
 The Profiling Dialog component helps you analyze performance data with detailed execution metrics and call hierarchies.
 Create custom columns, templates, and filters to build the perfect dashboard to your monitoring needs.
 
+#### Data Ingestion
+
+You can send logs to Orwell through:
+
+1. REST API Endpoints:
+
+   - `POST /api/logs` - Send individual logs
+   - `POST /api/logs/bulk` - Send multiple logs in batch
+   - See `log-schema.json` for the required payload format
+
+2. Message Brokers:
+   - All messages must follow the schema defined in `log-schema.json`
+
 ### Inquisitor
 
 Inquisitor is our application monitoring system that keeps an eye on your applications.
