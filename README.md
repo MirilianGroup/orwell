@@ -41,7 +41,7 @@ Set up monitoring rules once and receive timely alerts when your services requir
 
 ### Getting Started
 
-1. [Subscribe to Orwell](https://buy.stripe.com/5kAdQXefE2MM2tO6oo)
+1. [Subscribe to Orwell](https://buy.stripe.com/aFa00idfk1gG8CU0cOcZa02)
 2. Receive your Docker Hub access token via email
 3. Clone this repository
 4. Configure the following files:
