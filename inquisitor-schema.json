@@ -1,0 +1,54 @@
+{
+  "InquisitionRequest": {
+    "Environment": "string",
+    "InquisitionName": "string",
+    "InquisitionId": "string",
+    "Started": "2025-07-24T12:00:00Z",
+    "Parameters": "string or null",
+    "RuntimeData": "string or null",
+    "LastExecution": "2025-07-24T12:00:00Z or null"
+  },
+  "InquisitionResponse": {
+    "InquisitionId": "string or null",
+    "Success": true,
+    "Error": "string or null",
+    "ErrorCode": "string or null",
+    "Message": {
+      "Header": "string or null",
+      "BaseBlocks": [
+        {
+          "Text": "string or null",
+          "Highlight": true,
+          "Link": false,
+          "Code": false,
+          "Order": 1
+        }
+      ],
+      "ReachBlocks": [
+        {
+          "Text": "string or null",
+          "Highlight": true,
+          "Link": false,
+          "Code": false,
+          "Order": 2,
+          "RichTextBlocks": [
+            {
+              "Text": "string or null",
+              "Highlight": true,
+              "Link": true,
+              "Code": false,
+              "Order": 1,
+              "Url": "https://example.com",
+              "Bold": true,
+              "Italic": false
+            }
+          ]
+        }
+      ],
+      "KeyValueBlocks": [], // Same type as ReachBlocks
+      "KeyValueListBlocks": [], // Same type as ReachBlocks
+      "ActionBlocks": [] // Same type as ReachBlocks
+    },
+    "RuntimeData": "string or null"
+  }
+}
