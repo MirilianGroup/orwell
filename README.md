@@ -38,6 +38,7 @@ Inquisitor is our application monitoring system that keeps an eye on your applic
 - Custom validation rules
 
 Set up monitoring rules once and receive timely alerts when your services require attention.
+See `inquisitor-schema.json` for the payload format
 
 ### Getting Started
 
