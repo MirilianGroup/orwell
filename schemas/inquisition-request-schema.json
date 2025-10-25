@@ -1,0 +1,10 @@
+{
+    "Environment": "string",
+    "InquisitionName": "string",
+    "InquisitionId": "string",
+    "Started": "2000-01-24T00:00:00Z",
+    "Parameters": "string?",
+    "RuntimeData": "string?",
+    "LastExecution": "datetime?"
+}
+  

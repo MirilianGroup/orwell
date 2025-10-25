@@ -1,0 +1,12 @@
+{
+    "InquisitionId": "string?",
+    "Success": "bool",
+    "Error": "string?",
+    "ErrorCode": "string?",
+    "Message": {
+        "header": "string?",
+        "blocks": ["@MessageBlock"]
+    },
+    "RuntimeData": "string?"
+}
+  

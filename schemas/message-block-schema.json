@@ -1,0 +1,24 @@
+{
+    "Text": "string?",
+    "Highlight": "bool",
+    "Link": "bool",
+    "Code": "bool",
+    "Order": "int?",
+    "Key": "string?",
+    "ActionUrl": "string?",
+    "RichTextElements": [
+        {
+            "Text": "string?",
+            "Url": "string?",
+            "Link": "bool",
+            "Bold": "bool",
+            "Italic": "bool"
+        }
+    ],
+    "Pairs": [
+        {
+            "Key": "string",
+            "Value": "string"
+        }
+    ]
+}
